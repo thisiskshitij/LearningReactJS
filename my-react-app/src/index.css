@@ -1,0 +1,132 @@
+.card {
+
+  border: 1px solid hsl(0, 0, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%)
+}
+
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%)
+}
+
+
+/* external styling for react component with css */
+
+.button {
+  background-color: hsl(188, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student{
+  font-family: Arial,sans-serif;
+  /* font-size: 2em; */
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%,0.8)
+}
+
+.student .p{
+  margin: 0;
+}
+
+.welcome-message{
+  background-color: green;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  background-color: red;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial,sans-serif;
+}
+
+.counter-display{
+  font-size: 5em;
+  margin-top: 0;
+  margin-top: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: hsl(197,100%,58%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-inline: 4px;
+}
+
+.counter-button:hover{
+  background-color: hsl(197,100%,38%);;
+}
+
+
+.color-picker-container{
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-picker-container .h1{
+  margin: 50px;
+  font-size: 3rem;
+}
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: .25s ease;
+  font-size: 2rem;
+}
+
+.color-display .p{
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.color-picker-container .label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
